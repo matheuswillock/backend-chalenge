@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.wirecard
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle
+features: [annotation-api, app-name, data, data-jpa, gradle, http-client, jackson-databind, jdbc-hikari, junit, kotlin, kotlin-application, kotlin-build, logback, micronaut-build, mysql, netty-server, readme, shade, testcontainers, yaml]

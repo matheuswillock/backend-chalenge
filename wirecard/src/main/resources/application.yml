@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: chalenge
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/wirecard?createDatabaseIfNotExist=true
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 'Nath@1308'
+    schema-generate: CREATE_DROP
+    dialect: MYSQL
+netty:
+  default:
+    allocator:
+      max-order: 3
+jpa.default.properties.hibernate.hbm2ddl.auto: update
