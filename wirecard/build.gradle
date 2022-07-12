@@ -26,11 +26,13 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
     runtimeOnly("ch.qos.logback:logback-classic")
-    runtimeOnly("mysql:mysql-connector-java")
     testImplementation("org.testcontainers:junit-jupiter")
     testImplementation("org.testcontainers:mysql")
     testImplementation("org.testcontainers:testcontainers")
     implementation("io.micronaut:micronaut-validation")
+
+    testImplementation("io.mockk:mockk")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
